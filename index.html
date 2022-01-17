@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="calc">
+
+        <input type="text" name="info" id="sumA" placeholder="Введите первое число" class="calc__number">
+        <input type="text" name="info" id="sumB" placeholder="Введите второе число" class="calc__number"> 
+        <button class="calc__button" onclick="calcSum()">Сложить</button>
+        <p class="calc__result" id="sumAB"></p>
+
+        <input type="text" name="info" id="subA" placeholder="Введите первое число" class="calc__number">
+        <input type="text" name="info" id="subB" placeholder="Введите второе число" class="calc__number"> 
+        <button class="calc__button" onclick="calcSub()">Вычесть</button>
+        <p class="calc__result" id="subAB"></p>
+
+        <input type="text" name="info" id="multiA" placeholder="Введите первое число" class="calc__number">
+        <input type="text" name="info" id="multiB" placeholder="Введите второе число" class="calc__number"> 
+        <button class="calc__button" onclick="calcMulti()">Умножить</button>
+        <p class="calc__result" id="multiAB"></p>
+
+        <input type="text" name="info" id="divA" placeholder="Введите первое число" class="calc__number">
+        <input type="text" name="info" id="divB" placeholder="Введите второе число" class="calc__number"> 
+        <button class="calc__button" onclick="calcDiv()">Разделить</button>
+        <p class="calc__result" id="divAB"></p>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
